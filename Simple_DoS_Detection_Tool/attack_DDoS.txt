@@ -1,0 +1,8 @@
+2021-03-03 20:31:47.052966
+
+
+15 His exceeded: 
+IP Adreess: 35.244.159.8
+At time: 2021-03-03 20:31:47.052966
+DDOS attack is Detected: 
+IP Address: 35.244.159.8

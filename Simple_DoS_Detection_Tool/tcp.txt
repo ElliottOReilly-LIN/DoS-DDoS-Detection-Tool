@@ -1,0 +1,59 @@
+16:35:42.520698 enp3s0 B   ARP, Request who-has pc-204-140.customer.ask4.lan tell gw.customer.ask4.lan, length 46
+16:35:42.679448 lo    In  IP localhost.54626 > localhost.46624: Flags [P.], seq 2486330867:2486331306, ack 197653298, win 8755, options [nop,nop,TS val 3655418964 ecr 3655417963], length 439
+16:35:42.679474 lo    In  IP localhost.46624 > localhost.54626: Flags [.], ack 439, win 10741, options [nop,nop,TS val 3655418964 ecr 3655418964], length 0
+16:35:42.679763 lo    In  IP localhost.46624 > localhost.54626: Flags [P.], seq 1:124, ack 439, win 10741, options [nop,nop,TS val 3655418965 ecr 3655418964], length 123
+16:35:42.679784 lo    In  IP localhost.54626 > localhost.46624: Flags [.], ack 124, win 8755, options [nop,nop,TS val 3655418965 ecr 3655418965], length 0
+16:35:42.681273 lo    In  IP localhost.54594 > localhost.46624: Flags [P.], seq 2122985687:2122986132, ack 1600290580, win 6216, options [nop,nop,TS val 3655418966 ecr 3655416964], length 445
+16:35:42.681385 lo    In  IP localhost.54614 > localhost.46624: Flags [P.], seq 1563519844:1563520303, ack 1658052513, win 7045, options [nop,nop,TS val 3655418966 ecr 3655415972], length 459
+16:35:42.681587 lo    In  IP localhost.46624 > localhost.54614: Flags [P.], seq 1:131, ack 459, win 9718, options [nop,nop,TS val 3655418966 ecr 3655418966], length 130
+16:35:42.681607 lo    In  IP localhost.54614 > localhost.46624: Flags [.], ack 131, win 7045, options [nop,nop,TS val 3655418966 ecr 3655418966], length 0
+16:35:42.681734 enp3s0 Out IP pc-200-218.customer.ask4.lan.53962 > ec2-34-255-50-110.eu-west-1.compute.amazonaws.com.https: Flags [P.], seq 3140008370:3140008415, ack 1899839121, win 3088, options [nop,nop,TS val 3308214753 ecr 2994447084], length 45
+16:35:42.683048 lo    In  IP localhost.54590 > localhost.46624: Flags [P.], seq 3175833894:3175834365, ack 2303067316, win 4355, options [nop,nop,TS val 3655418968 ecr 3655415971], length 471
+16:35:42.683176 lo    In  IP localhost.54610 > localhost.46624: Flags [P.], seq 3387844123:3387844581, ack 2251352751, win 9201, options [nop,nop,TS val 3655418968 ecr 3655403967], length 458
+16:35:42.683328 lo    In  IP localhost.46624 > localhost.54590: Flags [P.], seq 1:118, ack 471, win 10230, options [nop,nop,TS val 3655418968 ecr 3655418968], length 117
+16:35:42.683353 lo    In  IP localhost.54590 > localhost.46624: Flags [.], ack 118, win 4355, options [nop,nop,TS val 3655418968 ecr 3655418968], length 0
+16:35:42.683413 lo    In  IP localhost.46624 > localhost.54610: Flags [P.], seq 1:122, ack 458, win 11253, options [nop,nop,TS val 3655418968 ecr 3655418968], length 121
+16:35:42.683431 lo    In  IP localhost.54610 > localhost.46624: Flags [.], ack 122, win 9201, options [nop,nop,TS val 3655418968 ecr 3655418968], length 0
+16:35:42.705481 enp3s0 In  IP ec2-34-255-50-110.eu-west-1.compute.amazonaws.com.https > pc-200-218.customer.ask4.lan.53962: Flags [.], ack 45, win 114, options [nop,nop,TS val 2994448816 ecr 3308214753], length 0
+16:35:42.727487 lo    In  IP localhost.46624 > localhost.54594: Flags [.], ack 445, win 9718, options [nop,nop,TS val 3655419012 ecr 3655418966], length 0
+16:35:42.740558 enp3s0 Out IP pc-200-218.customer.ask4.lan.42402 > 239.255.255.250.ssdp: UDP, length 167
+16:35:42.777218 enp3s0 M   STP 802.1d, Config, Flags [none], bridge-id 8000.28:41:c6:32:fa:69.800a, length 43
+16:35:42.864685 enp3s0 B   ARP, Request who-has pc-197-66.customer.ask4.lan tell gw.customer.ask4.lan, length 46
+16:35:42.878592 enp3s0 B   ARP, Request who-has pc-197-27.customer.ask4.lan tell gw.customer.ask4.lan, length 46
+16:35:42.982598 enp3s0 In  IP ec2-34-255-50-110.eu-west-1.compute.amazonaws.com.https > pc-200-218.customer.ask4.lan.53962: Flags [P.], seq 1:152, ack 45, win 114, options [nop,nop,TS val 2994449093 ecr 3308214753], length 151
+16:35:42.982605 enp3s0 In  IP ec2-34-255-50-110.eu-west-1.compute.amazonaws.com.https > pc-200-218.customer.ask4.lan.53962: Flags [P.], seq 152:190, ack 45, win 114, options [nop,nop,TS val 2994449093 ecr 3308214753], length 38
+16:35:42.982694 enp3s0 Out IP pc-200-218.customer.ask4.lan.53962 > ec2-34-255-50-110.eu-west-1.compute.amazonaws.com.https: Flags [.], ack 190, win 3088, options [nop,nop,TS val 3308215054 ecr 2994449093], length 0
+16:35:42.983353 lo    In  IP localhost.46624 > localhost.54594: Flags [P.], seq 1:218, ack 445, win 9718, options [nop,nop,TS val 3655419268 ecr 3655418966], length 217
+16:35:42.983376 lo    In  IP localhost.54594 > localhost.46624: Flags [.], ack 218, win 6216, options [nop,nop,TS val 3655419268 ecr 3655419268], length 0
+16:35:42.983601 enp3s0 Out IP pc-200-218.customer.ask4.lan.37488 > 51.241.186.35.bc.googleusercontent.com.https: Flags [P.], seq 3147085862:3147086258, ack 2560878562, win 6891, options [nop,nop,TS val 2507365824 ecr 2654106220], length 396
+16:35:42.993660 enp3s0 In  IP 51.241.186.35.bc.googleusercontent.com.https > pc-200-218.customer.ask4.lan.37488: Flags [.], ack 396, win 3778, options [nop,nop,TS val 2654108122 ecr 2507365824], length 0
+16:35:43.042539 enp3s0 B   ARP, Request who-has pc-194-220.customer.ask4.lan tell gw.customer.ask4.lan, length 46
+16:35:43.094976 enp3s0 Out IP pc-200-218.customer.ask4.lan.40216 > lhr25s28-in-f14.1e100.net.http: Flags [P.], seq 3384759439:3384759551, ack 3482872751, win 502, options [nop,nop,TS val 3709457370 ecr 3542012427], length 112: HTTP: GET /generate_204 HTTP/1.1
+16:35:43.104920 enp3s0 In  IP 51.241.186.35.bc.googleusercontent.com.https > pc-200-218.customer.ask4.lan.37488: Flags [P.], seq 1:562, ack 396, win 3778, options [nop,nop,TS val 2654108233 ecr 2507365824], length 561
+16:35:43.104943 enp3s0 Out IP pc-200-218.customer.ask4.lan.37488 > 51.241.186.35.bc.googleusercontent.com.https: Flags [.], ack 562, win 6900, options [nop,nop,TS val 2507365946 ecr 2654108233], length 0
+16:35:43.105348 enp3s0 Out IP pc-200-218.customer.ask4.lan.45288 > 220.225.227.35.bc.googleusercontent.com.https: Flags [P.], seq 1631498861:1631498901, ack 447574175, win 544, options [nop,nop,TS val 694014933 ecr 636822758], length 40
+16:35:43.105394 enp3s0 In  IP lhr25s28-in-f14.1e100.net.http > pc-200-218.customer.ask4.lan.40216: Flags [P.], seq 1:84, ack 112, win 256, options [nop,nop,TS val 3542041371 ecr 3709457370], length 83: HTTP: HTTP/1.1 204 No Content
+16:35:43.105410 enp3s0 Out IP pc-200-218.customer.ask4.lan.40216 > lhr25s28-in-f14.1e100.net.http: Flags [.], ack 84, win 502, options [nop,nop,TS val 3709457380 ecr 3542041371], length 0
+16:35:43.105418 enp3s0 Out IP pc-200-218.customer.ask4.lan.45288 > 220.225.227.35.bc.googleusercontent.com.https: Flags [P.], seq 40:157, ack 1, win 544, options [nop,nop,TS val 694014933 ecr 636822758], length 117
+16:35:43.115586 enp3s0 In  IP 220.225.227.35.bc.googleusercontent.com.https > pc-200-218.customer.ask4.lan.45288: Flags [.], ack 40, win 269, options [nop,nop,TS val 636824663 ecr 694014933], length 0
+16:35:43.115591 enp3s0 In  IP 220.225.227.35.bc.googleusercontent.com.https > pc-200-218.customer.ask4.lan.45288: Flags [.], ack 157, win 269, options [nop,nop,TS val 636824663 ecr 694014933], length 0
+16:35:43.223393 enp3s0 In  IP 220.225.227.35.bc.googleusercontent.com.https > pc-200-218.customer.ask4.lan.45288: Flags [P.], seq 1:64, ack 157, win 269, options [nop,nop,TS val 636824771 ecr 694014933], length 63
+16:35:43.223402 enp3s0 In  IP 220.225.227.35.bc.googleusercontent.com.https > pc-200-218.customer.ask4.lan.45288: Flags [P.], seq 64:129, ack 157, win 269, options [nop,nop,TS val 636824771 ecr 694014933], length 65
+16:35:43.223494 enp3s0 Out IP pc-200-218.customer.ask4.lan.45288 > 220.225.227.35.bc.googleusercontent.com.https: Flags [.], ack 129, win 544, options [nop,nop,TS val 694015051 ecr 636824771], length 0
+16:35:43.223533 enp3s0 In  IP 220.225.227.35.bc.googleusercontent.com.https > pc-200-218.customer.ask4.lan.45288: Flags [P.], seq 129:168, ack 157, win 269, options [nop,nop,TS val 636824771 ecr 694014933], length 39
+16:35:43.223681 enp3s0 Out IP pc-200-218.customer.ask4.lan.45288 > 220.225.227.35.bc.googleusercontent.com.https: Flags [P.], seq 157:196, ack 168, win 544, options [nop,nop,TS val 694015052 ecr 636824771], length 39
+16:35:43.233734 enp3s0 In  IP 220.225.227.35.bc.googleusercontent.com.https > pc-200-218.customer.ask4.lan.45288: Flags [.], ack 196, win 269, options [nop,nop,TS val 636824781 ecr 694015052], length 0
+16:35:43.366726 enp3s0 B   ARP, Request who-has pc-199-180.customer.ask4.lan tell gw.customer.ask4.lan, length 46
+16:35:43.459627 enp3s0 Out IP pc-200-218.customer.ask4.lan.56102 > gw.customer.ask4.lan.domain: 17328+ PTR? 140.204.169.10.in-addr.arpa. (45)
+16:35:43.460377 enp3s0 In  IP gw.customer.ask4.lan.domain > pc-200-218.customer.ask4.lan.56102: 17328* 1/1/1 PTR pc-204-140.customer.ask4.lan. (120)
+16:35:43.460643 enp3s0 Out IP pc-200-218.customer.ask4.lan.48161 > gw.customer.ask4.lan.domain: 21119+ PTR? 1.192.169.10.in-addr.arpa. (43)
+16:35:43.461203 enp3s0 In  IP gw.customer.ask4.lan.domain > pc-200-218.customer.ask4.lan.48161: 21119* 1/1/1 PTR gw.customer.ask4.lan. (110)
+16:35:43.463717 enp3s0 Out IP pc-200-218.customer.ask4.lan.51322 > gw.customer.ask4.lan.domain: 448+ PTR? 110.50.255.34.in-addr.arpa. (44)
+16:35:43.490785 enp3s0 In  IP gw.customer.ask4.lan.domain > pc-200-218.customer.ask4.lan.51322: 448 1/5/6 PTR ec2-34-255-50-110.eu-west-1.compute.amazonaws.com. (328)
+16:35:43.491012 enp3s0 Out IP pc-200-218.customer.ask4.lan.EtherNet-IP-2 > gw.customer.ask4.lan.domain: 43182+ PTR? 218.200.169.10.in-addr.arpa. (45)
+16:35:43.491718 enp3s0 In  IP gw.customer.ask4.lan.domain > pc-200-218.customer.ask4.lan.EtherNet-IP-2: 43182* 1/1/1 PTR pc-200-218.customer.ask4.lan. (120)
+16:35:43.492248 enp3s0 Out IP pc-200-218.customer.ask4.lan.35153 > gw.customer.ask4.lan.domain: 30895+ PTR? 250.255.255.239.in-addr.arpa. (46)
+16:35:43.577469 enp3s0 In  IP gw.customer.ask4.lan.domain > pc-200-218.customer.ask4.lan.35153: 30895 NXDomain 0/1/0 (103)
+16:35:43.678512 enp3s0 Out IP6 EO-AMD-PC.mdns > ff02::fb.mdns: 0 PTR (QM)? 250.255.255.239.in-addr.arpa. (46)
+16:35:43.678647 enp3s0 Out IP pc-200-218.customer.ask4.lan.mdns > 224.0.0.251.mdns: 0 PTR (QM)? 250.255.255.239.in-addr.arpa. (46)
+
